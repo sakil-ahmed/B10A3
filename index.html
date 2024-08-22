@@ -93,7 +93,7 @@
       <!-- Header section -->
 
       <!-- Hero section  -->
-      <section class="px-5" id="hero-section">
+      <section class="px-5 pb-10 md:pb-[70px] lg:pb-[100px]" id="hero-section">
         <div class="flex flex-col items-center gap-6">
           <img
             src="./assets/banner.png"
@@ -105,7 +105,9 @@
           >
             A barn house of this design has a striking appearance
           </h1>
-          <p class="md:max-w-[566px] lg:max-w-[972px] w-full text-center">
+          <p
+            class="md:max-w-[566px] lg:max-w-[972px] w-full text-center max-sm:text-[14px]"
+          >
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
@@ -124,6 +126,82 @@
         </div>
       </section>
       <!-- Hero section  -->
+
+      <!-- About us  -->
+
+      <section class="py-[100px] relative bg-[#f4f4f4]" id="about">
+        <div class="max-w-[1170px] w-full mx-auto px-5">
+          <div
+            class="flex items-center justify-between gap-10 max-lg:flex-wrap"
+          >
+            <div class="relative max-lg:w-full">
+              <img
+                src="./assets/Vector.png"
+                alt=""
+                class="absolute -top-[58px] -left-[54px] max-lg:hidden"
+              />
+              <button
+                class="py-2 px-4 flex items-center justify-center gap-2 bg-white rounded-[24px] max-lg:mx-auto mb-5"
+              >
+                <i class="fa-solid fa-arrow-down-long -rotate-[90deg]"></i>
+                <span>About Us</span>
+              </button>
+
+              <div class="flex flex-col gap-6">
+                <h2
+                  class="lg:max-w-[477px] w-full text-[24px] md:text-[32px] lg:text-[40px] font-bold max-lg:text-center"
+                >
+                  We design thoughtful, liveable spaces
+                </h2>
+                <p
+                  class="lg:max-w-[560px] w-full max-lg:text-center max-sm:text-[14px]"
+                >
+                  The barn house captivates with its blend of rustic charm and
+                  modern sophistication, featuring weathered wood, sleek metal
+                  accents.
+                </p>
+
+                <!-- card -->
+                <div class="flex max-sm:flex-col lg:flex-col gap-6">
+                  <div
+                    class="flex items-center gap-6 p-6 bg-white rounded-[16px]"
+                  >
+                    <img src="./assets/commercial.png" alt="" />
+                    <div>
+                      <h3 class="text-[20px] font-extrabold">Commercial</h3>
+                      <p class="max-w-[320px] w-full max-sm:text-[14px]">
+                        The barn house captivates with its blend of rustic charm
+                        and modern.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-center gap-6 p-6 bg-white rounded-[16px]"
+                  >
+                    <img src="./assets/residential.png" alt="" />
+                    <div>
+                      <h3 class="text-[20px] font-extrabold">Residential</h3>
+                      <p class="max-w-[320px] w-full max-sm:text-[14px]">
+                        The barn house captivates with its blend of rustic charm
+                        and modern.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="max-lg:w-full">
+              <img
+                src="./assets/Rectangle.png"
+                alt="About us image"
+                class="max-lg:w-full max-sm:h-[223px] max-lg:h-[385px] object-cover rounded-[16px]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About us  -->
     </div>
   </body>
 </html>
