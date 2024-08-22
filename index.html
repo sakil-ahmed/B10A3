@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title></title>
+
+    <script
+      src="https://kit.fontawesome.com/ed97962f8d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]">
+      <!-- Header section -->
+
+      <header class="py-12" id="header">
+        <div class="max-w-[1170px] w-full mx-auto px-5">
+          <div class="flex items-center justify-between">
+            <div>
+              <img src="./assets//logo.svg" alt="Rinterio" />
+            </div>
+            <nav class="hidden min-[992px]:block">
+              <ul class="flex items-center gap-5 lg:gap-10">
+                <li>
+                  <a class="text-[#494949] font-extrabold" href="#">Home</a>
+                </li>
+                <li><a class="text-[#737373]" href="#">Services</a></li>
+                <li><a class="text-[#737373]" href="#">Portfolio</a></li>
+                <li><a class="text-[#737373]" href="#">Blogs</a></li>
+                <li><a class="text-[#737373]" href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+
+            <div class="flex items-center justify-center gap-6">
+              <div
+                class="items-center justify-center gap-3 lg:gap-6 hidden md:flex"
+              >
+                <button
+                  class="w-[48px] h-[48px] rounded-full bg-[#ffffff] border border-[#E9E9E9]"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button
+                  class="w-[48px] h-[48px] rounded-full bg-white border border-[#E9E9E9]"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+                <button
+                  class="bg-[#ABEF5F] flex items-center justify-center py-3 px-5 gap-2 rounded-[32px]"
+                >
+                  <span class="text-[20px] font-extrabold"> Book Consult </span>
+
+                  <div
+                    class="bg-black text-white -rotate-[130deg] w-8 h-8 flex items-center justify-center rounded-full"
+                  >
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                  </div>
+                </button>
+              </div>
+              <!-- Mobile menu -->
+              <button
+                class="w-[48px] h-[48px] rounded-full bg-[#ffffff] border border-[#E9E9E9] max-[992px]:block hidden"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Header section -->
+
+      <!-- Hero section  -->
+      <section class="px-5" id="hero-section">
+        <div class="flex flex-col items-center gap-6">
+          <img
+            src="./assets/banner.png"
+            alt="hero image"
+            class="max-w-[571px] w-full"
+          />
+          <h1
+            class="text-[28px] md:text-[36px] lg:text-[64px] font-extrabold text-[#212121] md:max-w-[610px] lg:max-w-[1084px] w-full text-center lg:leading-[74px]"
+          >
+            A barn house of this design has a striking appearance
+          </h1>
+          <p class="md:max-w-[566px] lg:max-w-[972px] w-full text-center">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <button
+            class="bg-[#ABEF5F50] flex items-center justify-center py-3 px-5 gap-2 rounded-[32px] border border-[#ABEF5F] mt-2 max-sm:w-full"
+          >
+            <span class="text-[20px] font-extrabold"> Book Consult </span>
+
+            <div
+              class="bg-[#ABEF5F] text-black -rotate-[130deg] w-8 h-8 flex items-center justify-center rounded-full"
+            >
+              <i class="fa-solid fa-arrow-down-long"></i>
+            </div>
+          </button>
+        </div>
+      </section>
+      <!-- Hero section  -->
+    </div>
+  </body>
+</html>
