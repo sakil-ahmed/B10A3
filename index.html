@@ -115,7 +115,7 @@
           <button
             class="bg-[#ABEF5F50] flex items-center justify-center py-3 px-5 gap-2 rounded-[32px] border border-[#ABEF5F] mt-2 max-sm:w-full"
           >
-            <span class="text-[20px] font-extrabold"> Book Consult </span>
+            <span class="text-[20px] font-extrabold"> View Details </span>
 
             <div
               class="bg-[#ABEF5F] text-black -rotate-[130deg] w-8 h-8 flex items-center justify-center rounded-full"
@@ -129,7 +129,10 @@
 
       <!-- About us  -->
 
-      <section class="py-[100px] relative bg-[#f4f4f4]" id="about">
+      <section
+        class="py-10 md:py-[70px] lg:py-[100px] relative bg-[#f4f4f4]"
+        id="about"
+      >
         <div class="max-w-[1170px] w-full mx-auto px-5">
           <div
             class="flex items-center justify-between gap-10 max-lg:flex-wrap"
@@ -204,13 +207,13 @@
       <!-- About us  -->
 
       <!-- Work process section -->
-      <section class="bg-[#f4f4f4] pb-[100px]">
+      <section class="bg-[#f4f4f4] pb-10 md:pb-[70px] lg:pb-[100px]">
         <div class="max-w-[1170px] w-full mx-auto px-5">
           <button
             class="py-2 px-4 flex items-center justify-center gap-2 bg-white rounded-[24px] mx-auto mb-5"
           >
             <i class="fa-solid fa-arrow-down-long -rotate-[90deg]"></i>
-            <span>About Us</span>
+            <span>How we works</span>
           </button>
           <h2
             class="w-full text-[24px] md:text-[32px] lg:text-[40px] font-bold text-center mb-[24px]"
@@ -287,6 +290,134 @@
       </section>
 
       <!-- Work process section -->
+      <!-- Contact us section -->
+      <section
+        class="py-10 md:py-[70px] lg:py-[100px] bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover"
+      >
+        <div class="max-w-[1170px] w-full mx-auto px-5">
+          <div>
+            <button
+              class="py-2 px-4 flex items-center justify-center gap-2 bg-white rounded-[24px] mx-auto mb-5"
+            >
+              <i class="fa-solid fa-arrow-down-long -rotate-[90deg]"></i>
+              <span>Let’s Connect</span>
+            </button>
+            <h2
+              class="w-full text-[24px] md:text-[32px] lg:text-[40px] font-bold text-center mb-[24px]"
+            >
+              Let’s Discuss Next Project
+            </h2>
+            <p
+              class="max-w-[678px] w-full text-center max-sm:text-[14px] mx-auto"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <form class="flex flex-col gap-6 pt-8">
+              <div
+                class="flex max-md:flex-col items-center justify-between gap-6"
+              >
+                <input
+                  type="text"
+                  name="firstName"
+                  placeholder="First Name*"
+                  class="p-5 sm:py-4 bg-white rounded-[24px] placeholder:text-[#A0A0A0] placeholder:font-medium w-full"
+                />
+                <input
+                  type="text"
+                  name="LastName"
+                  placeholder="Last Name*"
+                  class="p-5 sm:py-4 bg-white rounded-[24px] placeholder:text-[#A0A0A0] placeholder:font-medium w-full"
+                />
+              </div>
+
+              <div
+                class="flex max-md:flex-col items-center justify-between gap-6"
+              >
+                <input
+                  type="text"
+                  name="phoneNumber"
+                  placeholder="Phone Number*"
+                  class="p-5 sm:py-4 bg-white rounded-[24px] placeholder:text-[#A0A0A0] placeholder:font-medium w-full"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email*"
+                  class="p-5 sm:py-4 bg-white rounded-[24px] placeholder:text-[#A0A0A0] placeholder:font-medium w-full"
+                />
+              </div>
+              <textarea
+                class="p-5 sm:py-4 bg-white rounded-[24px] placeholder:text-[#A0A0A0] placeholder:font-medium w-full h-[240px]"
+                placeholder="Write your message here"
+              ></textarea>
+
+              <button
+                class="bg-[#ABEF5F] flex items-center justify-center py-3 px-5 gap-2 rounded-[32px] w-full mt-2"
+              >
+                <span class="text-[20px] font-extrabold"> Book Consult </span>
+
+                <div
+                  class="bg-black text-white -rotate-[130deg] w-8 h-8 flex items-center justify-center rounded-full"
+                >
+                  <i class="fa-solid fa-arrow-down-long"></i>
+                </div>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact us section -->
+
+      <!-- Footer section -->
+      <footer class="py-10 md:py-[70px] lg:py-[100px] bg-[#1c1c1c]">
+        <div class="mx-w-[1170px] w-full mx-auto px-5">
+          <div class="text-white flex flex-col gap-8 md:gap-[48px]">
+            <div>
+              <img
+                src="./assets/dark-logo.png"
+                alt=""
+                class="max-w-[168px] w-full mx-auto"
+              />
+              <p
+                class="text-[#737373] font-medium max-w-[678px] w-full mx-auto text-center mt-4"
+              >
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+
+            <ul
+              class="flex max-md:flex-col items-center justify-center gap-5 lg:gap-10"
+            >
+              <li>
+                <a class="text-[#E9E9E9]" href="#">Home</a>
+              </li>
+              <li><a class="text-[#E9E9E9]" href="#">Services</a></li>
+              <li><a class="text-[#E9E9E9]" href="#">Portfolio</a></li>
+              <li><a class="text-[#E9E9E9]" href="#">Blogs</a></li>
+              <li><a class="text-[#E9E9E9]" href="#">Contact Us</a></li>
+            </ul>
+
+            <button
+              class="bg-[#ABEF5F] flex items-center justify-center py-3 px-5 gap-2 rounded-[32px] mx-auto"
+            >
+              <span class="text-[20px] font-extrabold text-black">
+                Book Consult
+              </span>
+
+              <div
+                class="bg-black text-white -rotate-[130deg] w-8 h-8 flex items-center justify-center rounded-full"
+              >
+                <i class="fa-solid fa-arrow-down-long"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer section -->
     </div>
   </body>
 </html>
